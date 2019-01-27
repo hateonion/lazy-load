@@ -1,0 +1,12 @@
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.lazy-load__item {
+    margin: 300px;
+}
