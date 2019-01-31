@@ -10,3 +10,38 @@ img {
 .lazy-load__item {
     margin: 300px;
 }
+
+.lazy-load__container{
+    position: relative;
+    display: block;
+    height: 0;
+    border: 2px solid black;
+}
+
+.lazy-load__raw {
+    border: 2px solid black;
+}
+
+.lazy-load__container.feature {
+    padding-bottom: 42.8%;
+}
+
+.lazy-load__container.post {
+    padding-bottom: 100%;
+}
+
+.lazy-load__container img {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+.img-container {
+    margin: 300px;
+}
+
+.article {
+    width: 50%;
+}
